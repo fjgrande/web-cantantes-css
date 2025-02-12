@@ -1,0 +1,74 @@
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --main-color: black;
+  --button-background-color: rgb(250, 128, 114);
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--main-font-family);
+}
+
+body,
+h1,
+h2 {
+  margin: 0;
+}
+
+header {
+  padding: 30px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+button {
+  padding: 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.container-button {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.main-content {
+  text-align: center;
+  background-color: rgba(255, 255, 128, 0.5);
+  height: 150vh;
+}
+
+.text-box {
+  width: 60%;
+  margin: 20px auto;
+  padding: 15px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  line-height: 1.6;
+  text-align: center;
+}
+
+.button-rammstein {
+  text-transform: capitalize;
+  color: rgb(209, 100, 23);
+}
+
+.button-oasis {
+  text-transform: capitalize;
+  color: rgb(22, 22, 166);
+}
+
+.button-metallica {
+  text-transform: capitalize;
+  color: rgb(111, 13, 156);
+}
