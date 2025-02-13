@@ -1,22 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --main-font-family: "Roboto", sans-serif;
   --main-color: black;
   --button-background-color: rgb(250, 128, 114);
 }
 
-*,
-::before,
-::after {
-  box-sizing: border-box;
-}
-
 html {
+  min-height: 100vh;
   font-family: var(--main-font-family);
 }
 
-body,
-h1,
-h2 {
+body {
   margin: 0;
 }
 
@@ -29,20 +26,31 @@ h1 {
 }
 
 button {
-  padding: 20px;
   font-size: 1.2rem;
+  background-color: transparent;
+  border: none;
   cursor: pointer;
+}
+
+.main-header {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  max-width: 1200px;
+  height: 200px;
+  box-shadow: 0 0 15px 5px #0002;
 }
 
 .container-button {
   display: flex;
-  flex-direction: column;
   gap: 30px;
 }
 
 .main-content {
   text-align: center;
-  background-color: rgba(255, 255, 128, 0.5);
+
   height: 150vh;
 }
 
